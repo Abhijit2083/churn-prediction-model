@@ -32,17 +32,17 @@ Predict whether a customer will churn (leave the service) so that businesses can
 
 # Project Structure
 
-├── app.py # FastAPI application
-├── churn_model.pkl # Trained ML model
-├── columns.pkl # Feature schema
-├── Telco-Customer-Churn.csv # Dataset
-├── codeCCP.ipynb # Model development
-└── README.md
+app.py # FastAPI application
+churn_model.pkl # Trained ML model
+columns.pkl # Feature schema
+Telco-Customer-Churn.csv # Dataset
+codeCCP.ipynb # Model development
+README.md
 
 # Endpoint:
 
 
-### Example Input:
+# Example Input:
 
 json
 {
@@ -66,6 +66,8 @@ json
   "MonthlyCharges": 90,
   "TotalCharges": 180
 }
+
+# Example Output:
 
 {
   "churn_probability": 0.82,
